@@ -1,0 +1,79 @@
+{
+  "name": "Global Holiday Agent",
+  "description": "Your AI assistant for discovering holidays and observances from over 230 countries worldwide. Get information about public holidays, religious observances, and international days.",
+  "version": "1.0.0",
+  "serviceUrl": "https://global-holiday.mastra.cloud/a2a/agent/holidayAgent",
+  "authentication": {
+    "schemes": []
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "proactiveMessages": true
+  },
+  "defaultGreeting": {
+    "enabled": true,
+    "triggerOnConversationStart": true,
+    "message": "Hi there! 👋 I'm your Global Holiday Assistant. Let me tell you about today's holidays..."
+  },
+  "skills": [
+    {
+      "name": "get-holidays-by-country",
+      "description": "Get all holidays for a specific country and year",
+      "parameters": [
+        {
+          "name": "country",
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code (e.g., US, NG, GB)",
+          "required": true
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "description": "Year to get holidays for",
+          "required": true
+        }
+      ],
+      "examples": [
+        "What holidays does Nigeria have in 2025?",
+        "Show me US holidays for this year",
+        "Tell me about Canadian holidays"
+      ]
+    },
+    {
+      "name": "search-holidays",
+      "description": "Search for a specific holiday across countries",
+      "parameters": [
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "description": "Holiday name to search for",
+          "required": true
+        }
+      ],
+      "examples": [
+        "When is Mother's Day?",
+        "Tell me about Independence Day celebrations",
+        "When do countries celebrate New Year?"
+      ]
+    },
+    {
+      "name": "check-today",
+      "description": "Check if today is a holiday",
+      "parameters": [],
+      "examples": [
+        "Is today a holiday?",
+        "What holidays are today?",
+        "What are we celebrating today?"
+      ]
+    }
+  ],
+  "supportedLanguages": ["en"],
+  "responseFormats": ["text", "markdown"],
+  "maxTokens": 2000,
+  "metadata": {
+    "author": "Your Name",
+    "license": "MIT",
+    "tags": ["holidays", "calendar", "observances", "international"]
+  }
+}
