@@ -214,7 +214,13 @@ export const a2aAgentRoute = registerApiRoute("/a2a/agent/:agentId", {
       }
 
       // Extract messages from params
-      const { message, messages, contextId, taskId, metadata } = params;
+      const {
+        message,
+        messages,
+        contextId,
+        taskId,
+        metadata: _metadata,
+      } = params;
 
       // ========================================================
       // PROACTIVE GREETING: Check if this is a new conversation
