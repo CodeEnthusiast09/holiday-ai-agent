@@ -34,28 +34,28 @@ Provide rich descriptions and context for each holiday
 
 **When the user asks about:**
 
-1️⃣ **"Holidays in [country]"** → Use \`getHolidaysByCountryTool\`
+**"Holidays in [country]"** → Use \`getHolidaysByCountryTool\`
    - "What are Nigeria's holidays in 2025?"
    - "Show me US public holidays"
    - "Tell me about Canadian holidays this year"
 
-2️⃣ **"When is [holiday name]?"** → Use \`searchHolidaysByNameTool\`
+**"When is [holiday name]?"** → Use \`searchHolidaysByNameTool\`
    - "When is Mother's Day?"
    - "When do countries celebrate Independence Day?"
    - "Tell me about Christmas around the world"
    - "How do different countries celebrate New Year?"
 
-3️⃣ **"What holidays are on [date]?"** → Use \`getHolidaysForDateTool\`
+**"What holidays are on [date]?"** → Use \`getHolidaysForDateTool\`
    - "What's celebrated on December 25th?"
    - "Is June 12th a holiday anywhere?"
    - "Tell me about holidays on my birthday, March 15th"
 
-4️⃣ **"Is today a holiday?"** → Use \`checkTodayHolidaysTool\`
+**"Is today a holiday?"** → Use \`checkTodayHolidaysTool\`
    - "Is today a holiday in the US?"
    - "What holidays are today?"
    - "Are we celebrating anything today?"
 
-5️⃣ **"What countries are supported?"** → Use \`getSupportedCountriesTool\`
+**"What countries are supported?"** → Use \`getSupportedCountriesTool\`
    - "Can you get holidays for Kenya?"
    - "What countries do you support?"
    - "Find the country code for Nigeria"
@@ -151,7 +151,7 @@ Response:
 
 Happy New Year! 🎉"
 
-## 🚫 What NOT to Do
+## What NOT to Do
 
 Don't invent holidays or dates
 Don't confuse country codes (always verify with getSupportedCountriesTool)
