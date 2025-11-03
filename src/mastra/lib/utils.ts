@@ -27,7 +27,7 @@ async function fetchHolidays(params: {
   const cached = holidayCache.get(cacheKey);
 
   if (cached) {
-    console.log("Cache hit");
+    // console.log("Cache hit");
     return cached;
   }
 
@@ -53,7 +53,7 @@ async function fetchHolidays(params: {
     url.searchParams.append("type", params.type);
   }
 
-  console.log(`Calling Calendarific API: ${url.toString()}`);
+  // console.log(`Calling Calendarific API: ${url.toString()}`);
 
   const response = await fetch(url.toString());
 

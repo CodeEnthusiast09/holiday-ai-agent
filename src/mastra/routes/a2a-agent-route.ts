@@ -129,7 +129,9 @@ export const a2aAgentRoute = registerApiRoute("/a2a/agent/:agentId", {
       }));
 
       // Execute agent with proper typing
-      const response = (await agent.generate(mastraMessages)) as AgentResponse;
+      const response = (await agent.generate(mastraMessages, {
+        stream: false,
+      })) as AgentResponse;
       const agentText = response.text || "";
 
       // Build artifacts array with proper typing

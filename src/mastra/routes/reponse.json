@@ -1,0 +1,57 @@
+{
+  "jsonrpc": "2.0",
+  "id": "test-001",
+  "result": {
+    "id": "e80f06d9-5dd1-40a8-87b6-da1f3ce6d3cd",
+    "contextId": "37ab3c52-7202-49b3-913b-1c9fd7b5d34d",
+    "status": {
+      "state": "completed",
+      "timestamp": "2025-11-03T14:57:33.267Z",
+      "message": {
+        "messageId": "8d652a73-c638-45da-91bd-b5b9373c548e",
+        "role": "agent",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "I am an expert Global Holiday Assistant powered by Calendarific! I have comprehensive knowledge of holidays across 230+ countries, covering years from 2001 to 2049.\n\nHere's what I can do for you:\n\n*   **Find all holidays** for any country and year.\n*   **Search for specific holidays** across countries (e.g., \"Mother's Day worldwide\").\n*   **Check what holidays fall on specific dates**.\n*   **Identify today's holidays** globally or by country.\n*   **Filter holidays by type** (national, local, religious, observance).\n*   **Provide rich descriptions and context** for each holiday.\n\nJust ask me anything about holidays! 🎉"
+          }
+        ],
+        "kind": "message"
+      }
+    },
+    "artifacts": [
+      {
+        "artifactId": "26dc2a36-e772-4fa2-bb6b-805a85f8fa66",
+        "name": "holidayAgentResponse",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "I am an expert Global Holiday Assistant powered by Calendarific! I have comprehensive knowledge of holidays across 230+ countries, covering years from 2001 to 2049.\n\nHere's what I can do for you:\n\n*   **Find all holidays** for any country and year.\n*   **Search for specific holidays** across countries (e.g., \"Mother's Day worldwide\").\n*   **Check what holidays fall on specific dates**.\n*   **Identify today's holidays** globally or by country.\n*   **Filter holidays by type** (national, local, religious, observance).\n*   **Provide rich descriptions and context** for each holiday.\n\nJust ask me anything about holidays! 🎉"
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "kind": "message",
+        "role": "user",
+        "parts": [{ "kind": "text", "text": "What do you do?" }],
+        "messageId": "msg-001",
+        "taskId": "task-001"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "parts": [
+          {
+            "kind": "text",
+            "text": "I am an expert Global Holiday Assistant powered by Calendarific! I have comprehensive knowledge of holidays across 230+ countries, covering years from 2001 to 2049.\n\nHere's what I can do for you:\n\n*   **Find all holidays** for any country and year.\n*   **Search for specific holidays** across countries (e.g., \"Mother's Day worldwide\").\n*   **Check what holidays fall on specific dates**.\n*   **Identify today's holidays** globally or by country.\n*   **Filter holidays by type** (national, local, religious, observance).\n*   **Provide rich descriptions and context** for each holiday.\n\nJust ask me anything about holidays! 🎉"
+          }
+        ],
+        "messageId": "9e4d2ce1-cee1-46fa-acd0-84edd999258a",
+        "taskId": "88491101-0696-472e-92ee-18b19964af55"
+      }
+    ],
+    "kind": "task"
+  }
+}
