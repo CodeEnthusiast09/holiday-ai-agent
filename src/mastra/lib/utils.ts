@@ -102,7 +102,7 @@ export function getCountryName(countryCode: string): string | null {
   return entry ? entry[0] : null;
 }
 
-// Helper function for fuzzy search
+// Helper function for fuzzy search (to search for country holidays)
 export function searchCountries(
   query: string,
 ): Array<{ name: string; code: string }> {
